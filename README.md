@@ -1,5 +1,4 @@
 # ariannamuti.github.io
-[index.html](https://github.com/user-attachments/files/28838465/index.html)
 
 <!DOCTYPE html>
 <html lang="en">
