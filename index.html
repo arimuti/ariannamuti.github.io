@@ -114,7 +114,7 @@
     <p class="hero-eyebrow">Postdoctoral Researcher</p>
     <h1 class="hero-name">Arianna<br><em>Muti</em></h1>
     <p class="hero-title">
-      Computational Linguistics &amp; <span>Computational Social Science</span><br>
+      Natural Language Processing &amp; <span>Computational Social Science</span><br>
       Bocconi University
     </p>
     <div class="hero-links">
@@ -139,12 +139,12 @@
 <section id="about">
   <p class="section-label">About</p>
   <div class="bio-text">
-    <p>I am a Postdoctoral Researcher at Bocconi University, working at the intersection of <strong style="color:var(--text)">Computational Linguistics</strong> and <strong style="color:var(--text)">Computational Social Science</strong>. My research focuses on how language models can be used to understand social phenomena, with particular interest in natural language processing, text analysis, and the study of human communication at scale.</p>
-    <p>I develop computational methods to analyze large corpora of text, examining how language encodes social meaning, bias, and cultural dynamics. My work bridges theoretical linguistics with empirical data-driven approaches, aiming to shed light on how we communicate and how our words shape — and are shaped by — society.</p>
+    <p>I am a Postdoctoral Researcher at Bocconi University, in the lab of MilaNLP. I am working at the intersection of <strong style="color:var(--text)">Natural Language Processing</strong> and <strong style="color:var(--text)">Computational Social Science</strong>. My research focuses on how language models can be used to understand social phenomena, with particular interest in hate speech and identity.</p>
+    <p>I develop datasets and computational methods to analyze how language encodes social meaning, bias, and cultural dynamics. </p>
   </div>
   <div class="bio-tags">
     <span class="tag">NLP</span>
-    <span class="tag">Computational Linguistics</span>
+    <span class="tag">Natural Language Processing</span>
     <span class="tag">Computational Social Science</span>
     <span class="tag">Language Models</span>
     <span class="tag">Text Analysis</span>
@@ -180,7 +180,7 @@
     </div>
     <div class="contact-item">
       <p class="contact-item-label">Research Areas</p>
-      <p class="contact-item-val">Computational Linguistics · Computational Social Science</p>
+      <p class="contact-item-val">Natural Language Processing · Computational Social Science</p>
     </div>
     <div class="contact-item">
       <p class="contact-item-label">Location</p>
@@ -206,7 +206,7 @@ async function loadPublications() {
         tools: [{ type: "web_search_20250305", name: "web_search" }],
         messages: [{
           role: "user",
-          content: "Search for academic publications by Arianna Muti, a computational linguistics and computational social science researcher at Bocconi University. Her Google Scholar ID is lE6EWMUAAAAJ. Find her published papers. Return ONLY a valid JSON array (no markdown, no code fences) where each item has: title (string), authors (string), venue (string), year (number), citations (number or null). Include 6-10 papers sorted by year descending."
+          content: "Search for academic publications by Arianna Muti, a Natural Language Processing and computational social science researcher at Bocconi University. Her Google Scholar ID is lE6EWMUAAAAJ. Find her published papers. Return ONLY a valid JSON array (no markdown, no code fences) where each item has: title (string), authors (string), venue (string), year (number), citations (number or null). Include 6-10 papers sorted by year descending."
         }]
       })
     });
